@@ -1,10 +1,10 @@
 import { ComponentProps } from "react";
 
-
 /*
 Table() => Componente que engloba todos os elementos da tabela
 
 */
+
 interface TableProps extends ComponentProps<'table'> {}
 
 export function Table(props: TableProps) {

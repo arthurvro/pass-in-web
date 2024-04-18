@@ -1,11 +1,6 @@
 import { ComponentProps } from "react";
 import { twMerge } from 'tailwind-merge'
 
-/*
-TableCell() => Componente que engloba todos os elementos dos th's
-
-*/
-
 interface TableCellProps extends ComponentProps<'td'> {}
 
 export function TableCell(props: TableCellProps) {
